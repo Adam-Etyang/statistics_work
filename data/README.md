@@ -14,11 +14,8 @@ This folder contains the raw data files used for statistical analysis and visual
 - **Purpose**: Primary dataset for analyzing the relationship between coding time and bug frequency
 
 ## Data Description
-
-This dataset appears to be used for studying the correlation between the amount of time spent coding and the number of bugs that are introduced or found in the code. The data is used across multiple analysis scripts in this project for:
-
+The data is used across multiple analysis scripts in this project for:
 - Scatter plot visualization
-- Histogram analysis with KDE
 - Linear regression modeling
 - Correlation coefficient calculation
 
