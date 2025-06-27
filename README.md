@@ -1,38 +1,38 @@
-# Statistics Work - ICS 2025
+# Statistics Work - Adam Etyang 191252 ICS A
 
-A comprehensive statistical analysis project examining the relationship between coding hours and bug frequency.
+A statistical analysis assignement examining the relationship between coding hours and bug frequency.
 
 ## Project Structure
 
 This repository is organized into the following folders:
 
-### 📊 `data_visualization/`
+### `data_visualization/`
 
 Contains Python scripts for creating data visualizations:
 
 - `plots.py` - Scatter plot of hours coding vs bugs
 - `frequency_dist_table.py` - Histogram with KDE curve
 
-### 📈 `statistical_analysis/`
+### `statistical_analysis/`
 
 Contains Python scripts for statistical analysis:
 
 - `lin_regression.py` - Linear regression modeling
 - `correlation_coefficient(r).py` - Pearson correlation analysis
 
-### 📁 `data/`
+### `data/`
 
 Contains the raw dataset:
 
 - `DATA.xlsx` - Excel file with Hours_Coding and Num_Bugs variables
 
-### 🖼️ `plots/`
+### `plots/`
 
 Contains all generated visualizations:
 
 - Scatter plots, histograms, and distribution plots
 
-### 📚 `documentation/`
+### `documentation/`
 
 Contains project documentation:
 
