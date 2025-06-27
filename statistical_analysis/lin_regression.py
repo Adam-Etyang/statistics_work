@@ -4,7 +4,7 @@ import pandas as pd
 
 
 #load data from the xlsx file
-df = pd.read_excel("data.xlsx", sheet_name="Sheet1")
+df = pd.read_excel("../data/DATA.xlsx", sheet_name="Sheet1")
 
 # Prepare data
 X = df['Hours_Coding'].values.reshape(-1, 1)  # Reshape for sklearn

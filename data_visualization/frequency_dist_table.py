@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # Load Excel data
-df = pd.read_excel("DATA.xlsx")
+df = pd.read_excel("../data/DATA.xlsx")
 
 # Set style
 sns.set(style="whitegrid")
@@ -22,5 +22,5 @@ plt.grid(True)
 
 # Save and show
 plt.tight_layout()
-plt.savefig("bug_histogram_with_kde.png", dpi=300)
+plt.savefig("../plots/bug_histogram_with_kde.png", dpi=300)
 plt.show()
